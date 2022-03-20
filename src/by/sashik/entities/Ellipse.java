@@ -52,6 +52,6 @@ public class Ellipse extends Ellipse2D {
     }
 
     public String toString() {
-        return "Ellipse = (point = " + point + ", width = " + width + ", height = " + height + ")";
+        return "Ellipse = (point = (" + getX() + "," + getY() + "), width = " + width + ", height = " + height + ")";
     }
 }

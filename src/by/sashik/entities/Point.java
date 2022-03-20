@@ -28,6 +28,6 @@ public class Point extends Point2D {
     }
 
     public String toString() {
-        return "(x = " + x + ", y = " + y + ")";
+        return "(x = " + getX() + ", y = " + getY() + ")";
     }
 }

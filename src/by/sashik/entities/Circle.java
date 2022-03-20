@@ -54,6 +54,6 @@ public class Circle extends Ellipse2D {
     }
 
     public String toString() {
-        return "Square = (point = " + point + ", diameter = " + diameter + ")";
+        return "Circle = (point = (" + getX() + ", " + getY() + "), diameter = " + diameter + ")";
     }
 }

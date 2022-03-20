@@ -55,6 +55,6 @@ public class Line extends Line2D {
     }
 
     public String toString() {
-        return "Line = (point1 = " + point1 + ", point2 = " + point2 + ")";
+        return "Line = (point1 = (" + getX1() + ", " + getY1() + "), point2 = (" + getX2() + ", " + getY2() + "))";
     }
 }

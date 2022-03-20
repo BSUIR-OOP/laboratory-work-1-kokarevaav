@@ -61,6 +61,6 @@ public class Rectangle extends Rectangle2D {
     }
 
     public String toString() {
-        return "Rectangle = (point = " + point + ", width = " + width + ", height = " + height + ")";
+        return "Rectangle = (point = (" + getX() + ", " + getY() + "), width = " + width + ", height = " + height + ")";
     }
 }

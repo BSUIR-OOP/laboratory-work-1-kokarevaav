@@ -63,6 +63,6 @@ public class Square extends Rectangle2D {
     }
 
     public String toString() {
-        return "Square = (point = " + point + ", width = " + width + ")";
+        return "Square = (point = (" + getX() + ", " + getY() + "), width = " + width + ")";
     }
 }
